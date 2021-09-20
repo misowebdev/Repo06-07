@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.card {
+    flex: 1 0 auto;
+    margin: 15px;
+    width: calc(33% - 30px);
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.1)
+}
+
+.description {
+    padding: 0 16px 0 16px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h3 {
+    color: deepskyblue
+}
+
+p {
+    text-align: justify;
+}
